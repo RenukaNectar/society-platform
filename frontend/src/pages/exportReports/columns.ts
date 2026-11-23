@@ -1,0 +1,113 @@
+export const columns = {
+    users: {
+        first_name: 'First Name',
+        last_name: 'Last Name',
+        email: 'Email',
+        phone: 'Phone',
+        role: 'Role',
+        state: 'State',
+        district: 'District',
+        created_at: 'Created Date'
+    },
+    amendments: {
+        chairperson_name: 'Chief Promoter Name',
+        chairperson_contact: 'Chief Promoter Contact',
+        secretary_name: 'Secretary Name',
+        secretary_contact: 'Secretary Contact',
+        general_body_meeting_date: 'Meeting Date',
+        notice_days: 'Notice Days',
+        total_members: 'Total Promoters',
+        members_present: 'Promoters Present',
+        votes_in_favour: 'Votes in Favour',
+        votes_against: 'Votes Against',
+        status: 'Status',
+        created_at: 'Created Date'
+    },
+    society: {
+        cooperative_society_name: 'Society Name',
+        local_langauge_society_name: 'Local Language Name',
+        registration_number: 'Registration Number',
+        society_id: 'Society ID',
+        date_registration: 'Registration Date',
+        reference_year: 'Reference Year',
+        functional_status: 'Functional Status',
+        area_of_operation: 'Area of Operation',
+        sector_of_operation: 'Sector of Operation',
+        state: 'State',
+        district: 'District',
+        pincode: 'Pincode',
+        annual_turnover: 'Annual Turnover',
+        is_profit_making: 'Profit Making',
+        status: 'Status',
+        created_at: 'Created Date'
+    },
+    'annual-filing': {
+        financial_year: 'Financial Year',
+        society_name: 'Society Name',
+        president_name: 'President Name',
+        secretary_name: 'Secretary Name',
+        registration_number: 'Registration Number',
+        registration_date: 'Registration Date',
+        general_body_meeting_date: 'General Body Meeting Date',
+        status: 'Status',
+        created_at: 'Created Date'
+    },
+    liquidation: {
+        liquidation_order_number: 'Liquidation Order Number',
+        society_name: 'Society Name',
+        society_registration_number: 'Registration Number',
+        date_of_liquidation_order: 'Liquidation Order Date',
+        mode_of_liquidation: 'Mode of Liquidation',
+        reason_for_liquidation: 'Reason for Liquidation',
+        total_assets: 'Total Assets',
+        total_liabilities: 'Total Liabilities',
+        net_position: 'Net Position',
+        status: 'Status',
+        created_at: 'Created Date'
+    },
+    election: {
+        last_election_held_date: 'Last Election Date',
+        last_elected_committee_expiry_date: 'Committee Expiry Date',
+        reason_for_election_request: 'Reason for Election',
+        proposed_election_date: 'Proposed Election Date',
+        proposed_venue: 'Proposed Venue',
+        number_of_members_eligible_to_vote: 'Eligible Voters',
+        status: 'Status',
+        created_at: 'Created Date'
+    },
+    audit: {
+        financial_year: 'Financial Year',
+        auditor_name: 'Auditor Name',
+        auditor_registration_number: 'Auditor Registration Number',
+        audit_completion_date: 'Audit Completion Date',
+        audit_classification: 'Audit Classification',
+        agm_date: 'AGM Date',
+        total_members_on_roll: 'Total Promoters',
+        turnover: 'Turnover',
+        profit_loss: 'Profit/Loss',
+        status: 'Status',
+        created_at: 'Created Date'
+    },
+    'enquiry-inspection': {
+        applicant_name: 'Applicant Name',
+        society_name: 'Society Name',
+        society_registration_number: 'Society Registration Number',
+        subject_reason: 'Subject/Reason',
+        detailed_description: 'Description',
+        preferred_office_level: 'Office Level',
+        incident_date: 'Incident Date',
+        status: 'Status',
+        created_at: 'Created Date'
+    },
+    appeal: {
+        appellant_name: 'Appellant Name',
+        order_type: 'Order Type',
+        order_number: 'Order Number',
+        order_date: 'Order Date',
+        grounds_of_appeal: 'Grounds of Appeal',
+        relief_sought: 'Relief Sought',
+        filing_date: 'Filing Date',
+        status: 'Status',
+        created_at: 'Created Date'
+    }
+}

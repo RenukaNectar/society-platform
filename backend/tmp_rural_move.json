@@ -1,0 +1,622 @@
+{
+  "bichom": [
+    {
+      "village_code": 273684,
+      "village_name": "Neking",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 298304,
+      "village_name": "New Nere",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 273652,
+      "village_name": "Pankar (Res)",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 102242,
+      "village_name": "Bana Village",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 273685,
+      "village_name": "Watte",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 273662,
+      "village_name": "Ningcho",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 273664,
+      "village_name": "Lumdung (Res)",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 273666,
+      "village_name": "Logoni (Res)",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 273683,
+      "village_name": "Neping",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 273661,
+      "village_name": "Seba",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 102241,
+      "village_name": "Bana Camp",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 273654,
+      "village_name": "Kadeya (Bana Camp-II)",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 273686,
+      "village_name": "Fengche",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 273653,
+      "village_name": "New Sopung (Res)",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 273665,
+      "village_name": "Pipokoro",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 273682,
+      "village_name": "Tongma (Res)",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 298310,
+      "village_name": "Nichoba",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 273687,
+      "village_name": "Kafla (Res)",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 102251,
+      "village_name": "Yangsey",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 273651,
+      "village_name": "Richukhorang",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 273688,
+      "village_name": "Loffa (Res)",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 298308,
+      "village_name": "Pitchang",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 102243,
+      "village_name": "Chijang",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 298302,
+      "village_name": "Kamrung",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 273663,
+      "village_name": "Nere",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 102247,
+      "village_name": "Silla",
+      "block_name": "Bana",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 102235,
+      "village_name": "Rojo/Wakke",
+      "block_name": "Lada",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 298312,
+      "village_name": "Nisangjang-Besai",
+      "block_name": "Lada",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 102238,
+      "village_name": "Tawe",
+      "block_name": "Lada",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 102229,
+      "village_name": "Gikung",
+      "block_name": "Lada",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 102240,
+      "village_name": "Wablong",
+      "block_name": "Lada",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 298313,
+      "village_name": "Nabolong",
+      "block_name": "Lada",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 273649,
+      "village_name": "Sekong Jarkam",
+      "block_name": "Lada",
+      "source_district": "East Kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 274323,
+      "village_name": "Pedung",
+      "block_name": "Nafra",
+      "source_district": "West kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 298423,
+      "village_name": "West Sachung Najangpong",
+      "block_name": "Nafra",
+      "source_district": "West kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 274322,
+      "village_name": "Sera",
+      "block_name": "Nafra",
+      "source_district": "West kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 103522,
+      "village_name": "Nafra West",
+      "block_name": "Nafra",
+      "source_district": "West kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 103520,
+      "village_name": "Nachibon",
+      "block_name": "Nafra",
+      "source_district": "West kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 103516,
+      "village_name": "Dibrick",
+      "block_name": "Nafra",
+      "source_district": "West kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 298421,
+      "village_name": "Duthung",
+      "block_name": "Nafra",
+      "source_district": "West kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 103524,
+      "village_name": "Upper Dzong",
+      "block_name": "Nafra",
+      "source_district": "West kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 274321,
+      "village_name": "Jerigaon",
+      "block_name": "Nafra",
+      "source_district": "West kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 274315,
+      "village_name": "Ditchik",
+      "block_name": "Nafra",
+      "source_district": "West kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 274317,
+      "village_name": "Rurang",
+      "block_name": "Nafra",
+      "source_district": "West kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 274318,
+      "village_name": "Khoina",
+      "block_name": "Nafra",
+      "source_district": "West kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 103515,
+      "village_name": "Challang",
+      "block_name": "Nafra",
+      "source_district": "West kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 103523,
+      "village_name": "Nakhu",
+      "block_name": "Nafra",
+      "source_district": "West kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 103518,
+      "village_name": "Khazalang",
+      "block_name": "Nafra",
+      "source_district": "West kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 274314,
+      "village_name": "Mathow",
+      "block_name": "Nafra",
+      "source_district": "West kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 298420,
+      "village_name": "Saddle",
+      "block_name": "Nafra",
+      "source_district": "West kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 103517,
+      "village_name": "Janaching",
+      "block_name": "Nafra",
+      "source_district": "West kameng",
+      "target_district": "Bichom"
+    },
+    {
+      "village_code": 298424,
+      "village_name": "Najang",
+      "block_name": "Nafra",
+      "source_district": "West kameng",
+      "target_district": "Bichom"
+    }
+  ],
+  "keyi_panyor": [
+    {
+      "village_code": 103015,
+      "village_name": "Jath",
+      "block_name": "Ziro II",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 103028,
+      "village_name": "Kebi",
+      "block_name": "Ziro II",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 103029,
+      "village_name": "Kel Yazali",
+      "block_name": "Ziro II",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 103030,
+      "village_name": "Kuchkut",
+      "block_name": "Ziro II",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 103017,
+      "village_name": "Linya",
+      "block_name": "Ziro II",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 103018,
+      "village_name": "Loth",
+      "block_name": "Ziro II",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 299824,
+      "village_name": "Lower Talo",
+      "block_name": "Ziro II",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 103019,
+      "village_name": "Mai",
+      "block_name": "Ziro II",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 103031,
+      "village_name": "New Pithapool",
+      "block_name": "Ziro II",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 103032,
+      "village_name": "Pithapool",
+      "block_name": "Ziro II",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 103033,
+      "village_name": "Potin",
+      "block_name": "Ziro II",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 103034,
+      "village_name": "Rubdi",
+      "block_name": "Ziro II",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 103021,
+      "village_name": "Tadarko",
+      "block_name": "Ziro II",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 298825,
+      "village_name": "Tago",
+      "block_name": "Ziro II",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 103022,
+      "village_name": "Tajgi",
+      "block_name": "Ziro II",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 103035,
+      "village_name": "Takampasa",
+      "block_name": "Ziro II",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 103023,
+      "village_name": "Talo",
+      "block_name": "Ziro II",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 299412,
+      "village_name": "Upper Talo",
+      "block_name": "Ziro II",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 103024,
+      "village_name": "Yachuli",
+      "block_name": "Ziro II",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 103025,
+      "village_name": "Yakha",
+      "block_name": "Ziro II",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 103036,
+      "village_name": "Yazali",
+      "block_name": "Ziro II",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 103037,
+      "village_name": "Yoizat",
+      "block_name": "Ziro II",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 103027,
+      "village_name": "Dodo",
+      "block_name": "Ziro II",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 102962,
+      "village_name": "Ambam",
+      "block_name": "Pistana",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 102963,
+      "village_name": "Belo",
+      "block_name": "Pistana",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 102964,
+      "village_name": "Deed",
+      "block_name": "Pistana",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 102965,
+      "village_name": "Dem",
+      "block_name": "Pistana",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 102967,
+      "village_name": "Neelam",
+      "block_name": "Pistana",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 102968,
+      "village_name": "Pania",
+      "block_name": "Pistana",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 298797,
+      "village_name": "Pistana",
+      "block_name": "Pistana",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 102970,
+      "village_name": "Seya",
+      "block_name": "Pistana",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 102971,
+      "village_name": "Shally",
+      "block_name": "Pistana",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 298796,
+      "village_name": "Sikho Mudo",
+      "block_name": "Pistana",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 102972,
+      "village_name": "Sitho",
+      "block_name": "Pistana",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 298798,
+      "village_name": "Tom Miya",
+      "block_name": "Pistana",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    },
+    {
+      "village_code": 102973,
+      "village_name": "Yoglu",
+      "block_name": "Pistana",
+      "source_district": "Lower Subansiri",
+      "target_district": "Keyi Panyor"
+    }
+  ]
+}

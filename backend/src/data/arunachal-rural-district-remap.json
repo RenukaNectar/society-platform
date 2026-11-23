@@ -1,0 +1,412 @@
+{
+  "state_code": 12,
+  "targets": {
+    "Keyi Panyor": {
+      "district_code": 786,
+      "district_name": "Keyi Panyor",
+      "source_district_names": [
+        "Lower Subansiri"
+      ],
+      "block_name_aliases": {
+        "Ziro II": [
+          "Ziro II",
+          "Ziro-II",
+          "Ziro Ii",
+          "ZIRO II"
+        ],
+        "Pistana": [
+          "Pistana",
+          "PISTANA"
+        ]
+      },
+      "blocks": {
+        "Ziro II": [
+          {
+            "name": "Jath",
+            "code": 103015
+          },
+          {
+            "name": "Kebi",
+            "code": 103028
+          },
+          {
+            "name": "Kel Yazali",
+            "code": 103029
+          },
+          {
+            "name": "Kuchkut",
+            "code": 103030
+          },
+          {
+            "name": "Linya",
+            "code": 103017
+          },
+          {
+            "name": "Loth",
+            "code": 103018
+          },
+          {
+            "name": "Lower Talo",
+            "code": 299824
+          },
+          {
+            "name": "Mai",
+            "code": 103019
+          },
+          {
+            "name": "New Pithapool",
+            "code": 103031
+          },
+          {
+            "name": "Pithapool",
+            "code": 103032
+          },
+          {
+            "name": "Potin",
+            "code": 103033
+          },
+          {
+            "name": "Rubdi",
+            "code": 103034
+          },
+          {
+            "name": "Tadarko",
+            "code": 103021
+          },
+          {
+            "name": "Tago",
+            "code": 298825
+          },
+          {
+            "name": "Tajgi",
+            "code": 103022
+          },
+          {
+            "name": "Takampasa",
+            "code": 103035
+          },
+          {
+            "name": "Talo",
+            "code": 103023
+          },
+          {
+            "name": "Upper Talo",
+            "code": 299412
+          },
+          {
+            "name": "Yachuli",
+            "code": 103024
+          },
+          {
+            "name": "Yakha",
+            "code": 103025
+          },
+          {
+            "name": "Yazali",
+            "code": 103036
+          },
+          {
+            "name": "Yoizat",
+            "code": 103037
+          },
+          {
+            "name": "Dodo",
+            "code": 103027
+          }
+        ],
+        "Pistana": [
+          {
+            "name": "Ambam",
+            "code": 102962
+          },
+          {
+            "name": "Belo",
+            "code": 102963
+          },
+          {
+            "name": "Deed",
+            "code": 102964
+          },
+          {
+            "name": "Dem",
+            "code": 102965
+          },
+          {
+            "name": "Neelam",
+            "code": 102967
+          },
+          {
+            "name": "Pania",
+            "code": 102968
+          },
+          {
+            "name": "Pistana",
+            "code": 298797
+          },
+          {
+            "name": "Seya",
+            "code": 102970
+          },
+          {
+            "name": "Shally",
+            "code": 102971
+          },
+          {
+            "name": "Sikho Mudo",
+            "code": 298796
+          },
+          {
+            "name": "Sitho",
+            "code": 102972
+          },
+          {
+            "name": "Tom Miya",
+            "code": 298798
+          },
+          {
+            "name": "Yoglu",
+            "code": 102973
+          }
+        ]
+      }
+    },
+    "Bichom": {
+      "district_code": 787,
+      "district_name": "Bichom",
+      "source_district_names": [
+        "East Kameng",
+        "West Kameng"
+      ],
+      "block_name_aliases": {
+        "Bana": [
+          "Bana",
+          "BANA"
+        ],
+        "Lada": [
+          "Lada",
+          "LADA"
+        ],
+        "Nafra": [
+          "Nafra",
+          "NAFRA"
+        ]
+      },
+      "blocks": {
+        "Bana": [
+          {
+            "name": "Neking",
+            "code": 273684
+          },
+          {
+            "name": "New Nere",
+            "code": 298304
+          },
+          {
+            "name": "Pankar (Res)",
+            "code": 273652
+          },
+          {
+            "name": "Bana Village",
+            "code": 102242
+          },
+          {
+            "name": "Watte",
+            "code": 273685
+          },
+          {
+            "name": "Ningcho",
+            "code": 273662
+          },
+          {
+            "name": "Lumdung (Res)",
+            "code": 273664
+          },
+          {
+            "name": "Logoni (Res)",
+            "code": 273666
+          },
+          {
+            "name": "Neping",
+            "code": 273683
+          },
+          {
+            "name": "Seba",
+            "code": 273661
+          },
+          {
+            "name": "Bana Camp",
+            "code": 102241
+          },
+          {
+            "name": "Kadeya (Bana Camp-II)",
+            "code": 273654
+          },
+          {
+            "name": "Fengche",
+            "code": 273686
+          },
+          {
+            "name": "New Sopung (Res)",
+            "code": 273653
+          },
+          {
+            "name": "Pipokoro",
+            "code": 273665
+          },
+          {
+            "name": "Tongma (Res)",
+            "code": 273682
+          },
+          {
+            "name": "Nichoba",
+            "code": 298310
+          },
+          {
+            "name": "Kafla (Res)",
+            "code": 273687
+          },
+          {
+            "name": "Yangsey",
+            "code": 102251
+          },
+          {
+            "name": "Richukhorang",
+            "code": 273651
+          },
+          {
+            "name": "Loffa (Res)",
+            "code": 273688
+          },
+          {
+            "name": "Pitchang",
+            "code": 298308
+          },
+          {
+            "name": "Chijang",
+            "code": 102243
+          },
+          {
+            "name": "Kamrung",
+            "code": 298302
+          },
+          {
+            "name": "Nere",
+            "code": 273663
+          },
+          {
+            "name": "Silla",
+            "code": 102247
+          }
+        ],
+        "Lada": [
+          {
+            "name": "Rojo/Wakke",
+            "code": 102235
+          },
+          {
+            "name": "Nisangjang-Besai",
+            "code": 298312
+          },
+          {
+            "name": "Tawe",
+            "code": 102238
+          },
+          {
+            "name": "Gikung",
+            "code": 102229
+          },
+          {
+            "name": "Wablong",
+            "code": 102240
+          },
+          {
+            "name": "Nabolong",
+            "code": 298313
+          },
+          {
+            "name": "Sekong Jarkam",
+            "code": 273649
+          }
+        ],
+        "Nafra": [
+          {
+            "name": "Pedung",
+            "code": 274323
+          },
+          {
+            "name": "West Sachung Najangpong",
+            "code": 298423
+          },
+          {
+            "name": "Sera",
+            "code": 274322
+          },
+          {
+            "name": "Nafra West",
+            "code": 103522
+          },
+          {
+            "name": "Nachibon",
+            "code": 103520
+          },
+          {
+            "name": "Dibrick",
+            "code": 103516
+          },
+          {
+            "name": "Duthung",
+            "code": 298421
+          },
+          {
+            "name": "Upper Dzong",
+            "code": 103524
+          },
+          {
+            "name": "Jerigaon",
+            "code": 274321
+          },
+          {
+            "name": "Ditchik",
+            "code": 274315
+          },
+          {
+            "name": "Rurang",
+            "code": 274317
+          },
+          {
+            "name": "Khoina",
+            "code": 274318
+          },
+          {
+            "name": "Challang",
+            "code": 103515
+          },
+          {
+            "name": "Nakhu",
+            "code": 103523
+          },
+          {
+            "name": "Khazalang",
+            "code": 103518
+          },
+          {
+            "name": "Mathow",
+            "code": 274314
+          },
+          {
+            "name": "Saddle",
+            "code": 298420
+          },
+          {
+            "name": "Janaching",
+            "code": 103517
+          },
+          {
+            "name": "Najang",
+            "code": 298424
+          }
+        ]
+      }
+    }
+  }
+}

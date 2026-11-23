@@ -1,0 +1,78 @@
+import { Router } from 'express';
+import authRoutes from './auth';
+import userRoutes from './users';
+import otherRoutes from './others';
+import permissionRoutes from './permissions';
+import adminRoutes from './admin';
+import sessionRoutes from './sessions';
+import masterDataRoutes from './master-data';
+import societyRegistrationRoutes from './society-registrations';
+import businessActivityRoutes from './business-activity';
+import memberRoutes from './members';
+import societyRoutes from './society';
+import notificationRoutes from './notifications';
+import amendmentRoutes from './amendments';
+import auditRequestRoutes from './audit-requests';
+import historyRoutes from './history';
+import annualFormRoutes from './annual-forms';
+import electionRequestRoutes from './election-requests';
+import liquidationRoutes from './liquidations';
+import enquiryRequestRoutes from './enquiry-requests';
+import appealRoutes from './appeals';
+import externalApiRoutes from './external-apis';
+import { authenticateToken } from '../../middleware/auth';
+import { getProfileController } from '../../controllers/userController';
+import { serveImage, downloadByeLawsBySocietyIdController, downloadMediaByIdController } from '../../controllers/mediaController';
+import annualGeneralMeetingRoutes from './annual-general-meeting';
+import specialGeneralMeetingRoutes from './special-general-meeting';
+import societyConversionRoutes from './society-conversions';
+import settingsRoutes from './settings';
+import moduleWorkflowRoutes from './module-workflows';
+import societyRenewalRoutes from './societyRenewals';
+import workflowRoutes from './workflows';
+import rbacRoutes from './rbac.routes';
+import bodMemberRoutes from './bod-members';
+import bodMeetingRoutes from './board-of-directors-meeting';
+
+const router = Router();
+
+// API v1 routes
+router.use('/auth', authRoutes);
+router.use('/rbac', authenticateToken, rbacRoutes);
+router.use('/users', authenticateToken, userRoutes);
+router.use('/others', authenticateToken, otherRoutes);
+router.use('/permissions', authenticateToken, permissionRoutes);
+router.use('/admin', authenticateToken, adminRoutes);
+router.use('/sessions', sessionRoutes);
+router.use('/master-data', masterDataRoutes);
+router.use('/societies', authenticateToken, societyRoutes);
+router.use('/society-registrations', authenticateToken, societyRegistrationRoutes);
+router.use('/business-activities', authenticateToken, businessActivityRoutes);
+router.use('/members', authenticateToken, memberRoutes);
+router.use('/bod-members', bodMemberRoutes);
+router.use('/board-of-directors-meeting', authenticateToken, bodMeetingRoutes);
+router.use('/amendments', authenticateToken, amendmentRoutes);
+router.use('/audit-requests', authenticateToken, auditRequestRoutes);
+router.use('/history', historyRoutes);
+router.use('/annual-forms', authenticateToken, annualFormRoutes);
+router.use('/election-requests', authenticateToken, electionRequestRoutes);
+router.use('/liquidations', authenticateToken, liquidationRoutes);
+router.use('/enquiry-requests', authenticateToken, enquiryRequestRoutes);
+router.use('/appeals', authenticateToken, appealRoutes);
+router.use('/external-apis', externalApiRoutes);
+router.get('/me', authenticateToken, getProfileController);
+router.use('/notifications', authenticateToken, notificationRoutes);
+// Public media serving (no auth). Useful for local/dev viewing of uploaded PDFs/images.
+router.get('/uploads/:filename', serveImage);
+// Public download by media id (QR on bye-law PDF before society registration exists).
+router.get('/public/media/:mediaId/download', downloadMediaByIdController);
+// Public bye-law download by society registration id (legacy / alternate).
+router.get('/public/bye-laws/:id/download', downloadByeLawsBySocietyIdController);
+router.use('/annual-general-meeting', authenticateToken, annualGeneralMeetingRoutes);
+router.use('/special-general-meeting', authenticateToken, specialGeneralMeetingRoutes);
+router.use('/society-conversions', authenticateToken, societyConversionRoutes);
+router.use('/settings', authenticateToken, settingsRoutes);
+router.use('/module-workflows', authenticateToken, moduleWorkflowRoutes);
+router.use('/society-renewals', authenticateToken, societyRenewalRoutes);
+router.use('/workflows', workflowRoutes);
+export default router; 
