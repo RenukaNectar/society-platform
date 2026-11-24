@@ -443,7 +443,7 @@ export const createEnquiryRequest = async (data: IEnquiryCreateData, userId: str
 
   let enquiry: Enquiry;
   try {
-    enquiry = await Enquiry.create(enquiryPayload);
+    enquiry = await Enquiry.create(enquiryPayload as any);
   } catch (createError: any) {
     const sqlMessage = createError?.parent?.sqlMessage || createError?.original?.sqlMessage;
     const isMissingWorkflowColumn =
@@ -458,7 +458,7 @@ export const createEnquiryRequest = async (data: IEnquiryCreateData, userId: str
       ENQUIRY_WORKFLOW_FIELDS.forEach((field) => {
         delete legacyPayload[field];
       });
-      enquiry = await Enquiry.create(legacyPayload, {
+      enquiry = await Enquiry.create(legacyPayload as any, {
         fields: [...LEGACY_ENQUIRY_CREATE_FIELDS],
       });
     } else {

@@ -27,12 +27,12 @@ const dbConfig = {
 
 // Create Sequelize instance
 const sequelize = new Sequelize(
-  dbConfig.database,
-  dbConfig.username,
+  dbConfig.database || '',
+  dbConfig.username || '',
   dbConfig.password,
   {
     host: dbConfig.host,
-    port: dbConfig.port,
+    port: dbConfig.port ? Number(dbConfig.port) : undefined,
     dialect: dbConfig.dialect,
     logging: dbConfig.logging,
     pool: dbConfig.pool,

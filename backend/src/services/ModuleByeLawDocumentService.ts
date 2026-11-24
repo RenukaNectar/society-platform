@@ -666,6 +666,7 @@ export const resolveAndAttachByeLawsMediaForDetail = async (
     await ensureStampedByeLawsMediaForApprovedDetail(detail, resourceId, moduleName);
     if (moduleName === 'AMENDMENT' && isModuleDetailApproved(detail, moduleName)) {
       const moduleConfig = BYE_LAW_WORKFLOW_MODULE_CONFIG.AMENDMENT;
+      if (!moduleConfig) return;
       const approverUserId = await resolveFinalRcsApproverUserId(
         detail,
         resourceId,

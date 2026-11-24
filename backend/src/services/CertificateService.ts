@@ -439,7 +439,7 @@ const addRegistrationCertificateSection = (doc: any, data: ICertificateData, pag
     doc.fontSize(14)
       .font('Helvetica')
       .text(
-        `This is to Certify that under Section 9 of the Arunachal Pradesh Cooperative Societies Act 1978 (Act 3 of 1979) read with Section 17 of Arunachal Pradesh Cooperative Societies act 1978 (Act 3 of 1979 and Sub-Rule(7)) of Rule 16 of Arunachal Pradesh Cooperative Societies Rules 1982, a Cooperative Society under the name and style "${previousName}", ${previousAddress} has been registered in this office on this ${formatDateDayOfMonthYear(creationDate)} by converting "${convertedName}", ${convertedAddress} and registered under ${data.registrationNumber} dated ${formatDateAsDayOrdinalMonthYear(data.dateOfRegistration)}\n`,
+        `This is to Certify that under Section 9 of the Arunachal Pradesh Cooperative Societies Act 1978 (Act 3 of 1979) read with Section 17 of Arunachal Pradesh Cooperative Societies act 1978 (Act 3 of 1979 and Sub-Rule(7)) of Rule 16 of Arunachal Pradesh Cooperative Societies Rules 1982, a Cooperative Society under the name and style "${previousName}", ${previousAddress} has been registered in this office on this ${formatDateDayOfMonthYear(creationDate)} by converting "${convertedName}", ${convertedAddress} and registered under ${data.registrationNumber} dated ${formatDateAsDayOrdinalMonthYear(data.dateOfRegistration || new Date())}\n`,
         leftX,
         currentY,
         {

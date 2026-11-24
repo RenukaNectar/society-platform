@@ -67,7 +67,7 @@ class BusinessActivity
   public assignedToUser?: unknown;
   public statusChangedByUser?: unknown;
 
-  public static associate(models: Record<string, Model>) {
+  public static associate(models: any) {
     BusinessActivity.belongsTo(models.SocietyRegistration, {
       foreignKey: 'society_id',
       targetKey: 'id',

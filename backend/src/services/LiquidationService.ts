@@ -154,6 +154,7 @@ function dedupeDetailDocuments(documents: DetailJtDocument[]): DetailJtDocument[
       continue;
     }
     const current = result[existingIndex];
+    if (!current) continue;
     const incomingSeq = Number(normalized.sequence) || 0;
     const currentSeq = Number(current.sequence) || 0;
     const preferIncoming =

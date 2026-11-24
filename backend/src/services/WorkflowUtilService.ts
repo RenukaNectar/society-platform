@@ -482,9 +482,10 @@ const formatLiquidationWorkflowComment = (comment: string | null | undefined): s
     .trim()
     .match(/^Workflow\s+(\w+)\s+for\s+LIQUIDATION(?:_RCS)?:\s*(.+)$/i);
   if (!match) return null;
-  const societyName = match[2].trim();
-  if (!societyName) return null;
-  return `Workflow ${match[1].toLowerCase()} for Liquidation: ${societyName}`;
+  const action = match[1];
+  const societyName = match[2]?.trim();
+  if (!action || !societyName) return null;
+  return `Workflow ${action.toLowerCase()} for Liquidation: ${societyName}`;
 };
 
 /** Returns true if comment is the auto-generated default (no real user comment). */

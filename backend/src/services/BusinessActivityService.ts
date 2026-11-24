@@ -244,7 +244,7 @@ export const getAllBusinessActivities = async (
   } as any);
 
   const businessActivities = rows.map((row) => {
-    const json = row.toJSON() as Record<string, unknown>;
+    const json = row.toJSON() as unknown as Record<string, unknown>;
     return {
       ...json,
       additional_data: parseBusinessActivityAdditionalData(json.additional_data),
@@ -290,7 +290,7 @@ export const getBusinessActivitiesBySocietyId = async (
   });
 
   return rows.map((row) => {
-    const json = row.toJSON() as Record<string, unknown>;
+    const json = row.toJSON() as unknown as Record<string, unknown>;
     return {
       ...json,
       additional_data: parseBusinessActivityAdditionalData(json.additional_data),
@@ -326,7 +326,7 @@ export const getBusinessActivityById = async (id: string, userId?: string) => {
   await ensureSubmittedWorkflow(activity);
   await activity.reload({ include: [sectorInclude, statusInclude, societySummaryInclude] });
 
-  const json = activity.toJSON() as Record<string, unknown>;
+  const json = activity.toJSON() as unknown as Record<string, unknown>;
   const result: Record<string, unknown> = {
     ...json,
     additional_data: parseBusinessActivityAdditionalData(json.additional_data),

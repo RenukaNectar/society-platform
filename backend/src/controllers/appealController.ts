@@ -1,6 +1,7 @@
 import { Request, Response, NextFunction } from 'express';
 import { IAuthRequest } from '../types';
 import { returnResponse } from '../utils/response';
+import { AppError } from '../utils/errors';
 import {
   IAppealCreateData,
   IAppealFilters,

@@ -5,7 +5,7 @@ export const getAllUrbanLocalBodiesWards = async (
   search?: string,
   localBodyCode?: number
 ) => {
-  const whereClause: Record<string, unknown> = {};
+  const whereClause: Record<string | symbol, unknown> = {};
 
   if (localBodyCode != null && !Number.isNaN(localBodyCode) && localBodyCode > 0) {
     whereClause.local_body_code = localBodyCode;

@@ -212,7 +212,7 @@ export const deleteSocietyRenewalController = async (req: IAuthRequest, res: Res
 
     await deleteSocietyRenewal(id, userId);
 
-    return returnResponse(res).ok('Renewal challan removed successfully');
+    return returnResponse(res).ok('Renewal challan removed successfully', null);
   } catch (error) {
     logger.error('Failed to delete society renewal:', error);
     if (error instanceof AppError) {

@@ -1607,6 +1607,9 @@ const parseUnavailableUntilDate = (value: Date | string): Date | null => {
   const str = String(value).trim();
   if (/^\d{4}-\d{2}-\d{2}$/.test(str)) {
     const [y, m, d] = str.split('-').map(Number);
+    if (y == null || m == null || d == null || Number.isNaN(y) || Number.isNaN(m) || Number.isNaN(d)) {
+      return null;
+    }
     return new Date(y, m - 1, d, 23, 59, 59, 999);
   }
   const parsed = new Date(str);

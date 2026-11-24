@@ -1080,7 +1080,7 @@ export const updateSocietyRegistration = async (
 
     data = normalizeOptionalSocietyRegistrationFields(
       (data && typeof data === 'object' ? data : {}) as Record<string, unknown>,
-      societyRegistration.toJSON() as Record<string, unknown>
+      societyRegistration.toJSON() as unknown as Record<string, unknown>
     ) as typeof data;
 
     const {
@@ -1153,7 +1153,7 @@ export const updateSocietyRegistration = async (
 
     if (!isDraftSaveInPlace) {
       assertRequiredSocietyRegistrationDocuments({
-        ...(societyRegistration.toJSON() as Record<string, unknown>),
+        ...(societyRegistration.toJSON() as unknown as Record<string, unknown>),
         ...societyData,
       });
 

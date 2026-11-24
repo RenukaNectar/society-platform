@@ -62,7 +62,7 @@ async function resolveRcsAssigneeForChallanReview(
       include: [{ model: Role, as: 'role', attributes: ['name'], required: false }]
     });
     const roleName = (prior as { role?: { name?: string } } | null)?.role?.name;
-    if (prior?.is_active !== false && roleName === 'rcs_district') {
+    if (prior && prior.is_active !== false && roleName === 'rcs_district') {
       return String(prior.id);
     }
   }
@@ -84,7 +84,7 @@ async function resolveRcsAssigneeForChallanReview(
         state_id: stateId,
         is_active: true,
         [Op.or]: [{ district_id: null }, { district_id: '' }]
-      },
+      } as any,
       include: [
         {
           model: Role,
@@ -96,8 +96,9 @@ async function resolveRcsAssigneeForChallanReview(
       ],
       limit: 1
     });
-    if (stateRcs.length > 0) {
-      return String(stateRcs[0].id);
+    const stateOfficer = stateRcs[0];
+    if (stateOfficer) {
+      return String(stateOfficer.id);
     }
   }
 

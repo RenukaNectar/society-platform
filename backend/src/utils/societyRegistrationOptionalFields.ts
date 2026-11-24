@@ -64,7 +64,7 @@ export function applyHqGeoExclusiveFields<T extends Record<string, unknown>>(
   data: T,
   existing?: Record<string, unknown> | null
 ): T {
-  const out = { ...data } as T & Record<string, unknown>;
+  const out: Record<string, unknown> = { ...data };
   const pick = (key: string) => (key in out ? out[key] : existing?.[key]);
 
   if ('location_of_head_quarter' in out) {
@@ -83,7 +83,7 @@ export function applyHqGeoExclusiveFields<T extends Record<string, unknown>>(
     for (const key of URBAN_GEO_FIELDS) out[key] = null;
   }
 
-  return out;
+  return out as T;
 }
 
 /** Map common client field names to DB column names. */
